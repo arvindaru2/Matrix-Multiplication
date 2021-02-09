@@ -1,0 +1,57 @@
+D:/TPU_Array/multiplier.sv {2 {vlog -work work -sv -stats=none D:/TPU_Array/multiplier.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module dec_mux
+-- Compiling module booth_pp
+-- Compiling module csa_12
+** Warning: (vlog-2121) D:/TPU_Array/multiplier.sv(142): Illegal concatenation of an unsized constant. Will treat it as a 32-bit value.
+** Warning: (vlog-2121) D:/TPU_Array/multiplier.sv(143): Illegal concatenation of an unsized constant. Will treat it as a 32-bit value.
+-- Compiling module multi8_8
+
+Top level modules:
+	multi8_8
+
+} {} {}} D:/TPU_Array/adder.sv {1 {vlog -work work -sv -stats=none D:/TPU_Array/adder.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module hadder
+-- Compiling module fadder
+-- Compiling module la_adder
+-- Compiling module la_logic
+-- Compiling module la_4
+-- Compiling module la_8
+-- Compiling module la_16
+-- Compiling module la_20
+-- Compiling module csa_4
+-- Compiling module csa_16
+
+Top level modules:
+	hadder
+	la_20
+	csa_16
+
+} {} {}} D:/TPU_Array/register.sv {1 {vlog -work work -sv -stats=none D:/TPU_Array/register.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module register
+
+Top level modules:
+	register
+
+} {} {}} D:/TPU_Array/adder_tb.sv {1 {vlog -work work -sv -stats=none D:/TPU_Array/adder_tb.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module adder_tb
+
+Top level modules:
+	adder_tb
+
+} {} {}} D:/TPU_Array/matrix_multiplication_unit.sv {1 {vlog -work work -sv -stats=none D:/TPU_Array/matrix_multiplication_unit.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module accumulator_unit
+-- Compiling module multiply_accumulate_unit
+-- Compiling module multiply_accumulate_slice
+-- Compiling module slice_reg
+-- Compiling module multiply_matrix
+-- Compiling module input_delay_chain
+
+Top level modules:
+	multiply_matrix
+
+} {} {}}
